@@ -40,3 +40,5 @@ type User {
     removeBook(bookId: ID!): User
   }
 `;
+
+module.exports = typeDefs;
